@@ -14,6 +14,7 @@
 		C5AF6DE12B8B7AD3001AED85 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DE02B8B7AD3001AED85 /* MainScreen.swift */; };
 		C5AF6DEA2B8B7EA4001AED85 /* NextVisit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DE92B8B7EA4001AED85 /* NextVisit.swift */; };
 		C5AF6DEC2B8B7F66001AED85 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DEB2B8B7F66001AED85 /* Header.swift */; };
+		C5AF6DEE2B8B8054001AED85 /* VisitCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DED2B8B8054001AED85 /* VisitCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C5AF6DE02B8B7AD3001AED85 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		C5AF6DE92B8B7EA4001AED85 /* NextVisit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextVisit.swift; sourceTree = "<group>"; };
 		C5AF6DEB2B8B7F66001AED85 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		C5AF6DED2B8B8054001AED85 /* VisitCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				C5AF6DCE2B8B7554001AED85 /* IosNeymishevApp.swift */,
 				C5AF6DEB2B8B7F66001AED85 /* Header.swift */,
 				C5AF6DE02B8B7AD3001AED85 /* MainScreen.swift */,
+				C5AF6DED2B8B8054001AED85 /* VisitCard.swift */,
 				C5AF6DD02B8B7554001AED85 /* ContentView.swift */,
 				C5AF6DD22B8B7556001AED85 /* Assets.xcassets */,
 				C5AF6DD42B8B7556001AED85 /* Preview Content */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5AF6DEC2B8B7F66001AED85 /* Header.swift in Sources */,
+				C5AF6DEE2B8B8054001AED85 /* VisitCard.swift in Sources */,
 				C5AF6DEA2B8B7EA4001AED85 /* NextVisit.swift in Sources */,
 				C5AF6DE12B8B7AD3001AED85 /* MainScreen.swift in Sources */,
 				C5AF6DD12B8B7554001AED85 /* ContentView.swift in Sources */,
