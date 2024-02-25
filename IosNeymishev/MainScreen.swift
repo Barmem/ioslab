@@ -46,7 +46,8 @@ struct MainScreen: View {
                 .background(Color("background_primary"))
                 .padding(20)
             }
-            
+            NavigationBar()
+                .frame(maxHeight: .greatestFiniteMagnitude, alignment: .bottom)
             
         }
     }
