@@ -16,6 +16,7 @@
 		C5AF6DEC2B8B7F66001AED85 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DEB2B8B7F66001AED85 /* Header.swift */; };
 		C5AF6DEE2B8B8054001AED85 /* VisitCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DED2B8B8054001AED85 /* VisitCard.swift */; };
 		C5AF6DF02B8BA3E5001AED85 /*  SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DEF2B8BA3E5001AED85 /*  SearchBar.swift */; };
+		C5AF6DF22B8BA6A2001AED85 /* ServiceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DF12B8BA6A2001AED85 /* ServiceCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		C5AF6DEB2B8B7F66001AED85 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		C5AF6DED2B8B8054001AED85 /* VisitCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitCard.swift; sourceTree = "<group>"; };
 		C5AF6DEF2B8BA3E5001AED85 /*  SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SearchBar.swift"; sourceTree = "<group>"; };
+		C5AF6DF12B8BA6A2001AED85 /* ServiceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				C5AF6DEF2B8BA3E5001AED85 /*  SearchBar.swift */,
 				C5AF6DE02B8B7AD3001AED85 /* MainScreen.swift */,
 				C5AF6DED2B8B8054001AED85 /* VisitCard.swift */,
+				C5AF6DF12B8BA6A2001AED85 /* ServiceCard.swift */,
 				C5AF6DD02B8B7554001AED85 /* ContentView.swift */,
 				C5AF6DD22B8B7556001AED85 /* Assets.xcassets */,
 				C5AF6DD42B8B7556001AED85 /* Preview Content */,
@@ -167,6 +170,7 @@
 				C5AF6DE12B8B7AD3001AED85 /* MainScreen.swift in Sources */,
 				C5AF6DD12B8B7554001AED85 /* ContentView.swift in Sources */,
 				C5AF6DCF2B8B7554001AED85 /* IosNeymishevApp.swift in Sources */,
+				C5AF6DF22B8BA6A2001AED85 /* ServiceCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
