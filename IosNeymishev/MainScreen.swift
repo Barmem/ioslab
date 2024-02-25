@@ -25,6 +25,7 @@ var nextVisit = NextVisit(
                 VStack {
                     Header().padding(.bottom, 10)
                     VisitCard(nextVisit: NextVisit()).padding(.vertical, 10)
+                    SearchBar().padding(.vertical, 10)
                 }
                 .background(Color("background_primary"))
                 .padding(20)
