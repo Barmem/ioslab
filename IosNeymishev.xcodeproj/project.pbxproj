@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5A738342B8BD9DE00A5A10E /* README in Resources */ = {isa = PBXBuildFile; fileRef = C5A738332B8BD9DE00A5A10E /* README */; };
 		C5AF6DCF2B8B7554001AED85 /* IosNeymishevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DCE2B8B7554001AED85 /* IosNeymishevApp.swift */; };
 		C5AF6DD32B8B7556001AED85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AF6DD22B8B7556001AED85 /* Assets.xcassets */; };
 		C5AF6DD62B8B7556001AED85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AF6DD52B8B7556001AED85 /* Preview Assets.xcassets */; };
@@ -19,9 +20,11 @@
 		C5AF6DF62B8BB5A6001AED85 /* DoctorLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DF52B8BB5A6001AED85 /* DoctorLocation.swift */; };
 		C5AF6DF82B8BB5D9001AED85 /* DoctorsLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DF72B8BB5D9001AED85 /* DoctorsLocation.swift */; };
 		C5AF6DFA2B8BBBE7001AED85 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DF92B8BBBE7001AED85 /* NavigationBar.swift */; };
+		C5AF6DFC2B8BC9F3001AED85 /* Simulator Screen Shot - iPod touch (7th generation) - 2024-02-26 at 01.17.49.png in Resources */ = {isa = PBXBuildFile; fileRef = C5AF6DFB2B8BC9F3001AED85 /* Simulator Screen Shot - iPod touch (7th generation) - 2024-02-26 at 01.17.49.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5A738332B8BD9DE00A5A10E /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		C5AF6DCB2B8B7554001AED85 /* IosNeymishev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosNeymishev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5AF6DCE2B8B7554001AED85 /* IosNeymishevApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosNeymishevApp.swift; sourceTree = "<group>"; };
 		C5AF6DD22B8B7556001AED85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,6 +38,7 @@
 		C5AF6DF52B8BB5A6001AED85 /* DoctorLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorLocation.swift; sourceTree = "<group>"; };
 		C5AF6DF72B8BB5D9001AED85 /* DoctorsLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsLocation.swift; sourceTree = "<group>"; };
 		C5AF6DF92B8BBBE7001AED85 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		C5AF6DFB2B8BC9F3001AED85 /* Simulator Screen Shot - iPod touch (7th generation) - 2024-02-26 at 01.17.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPod touch (7th generation) - 2024-02-26 at 01.17.49.png"; path = "../Simulator Screen Shot - iPod touch (7th generation) - 2024-02-26 at 01.17.49.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		C5AF6DC22B8B7554001AED85 = {
 			isa = PBXGroup;
 			children = (
+				C5A738332B8BD9DE00A5A10E /* README */,
+				C5AF6DFB2B8BC9F3001AED85 /* Simulator Screen Shot - iPod touch (7th generation) - 2024-02-26 at 01.17.49.png */,
 				C5AF6DCD2B8B7554001AED85 /* IosNeymishev */,
 				C5AF6DCC2B8B7554001AED85 /* Products */,
 			);
@@ -157,8 +163,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A738342B8BD9DE00A5A10E /* README in Resources */,
 				C5AF6DD62B8B7556001AED85 /* Preview Assets.xcassets in Resources */,
 				C5AF6DD32B8B7556001AED85 /* Assets.xcassets in Resources */,
+				C5AF6DFC2B8BC9F3001AED85 /* Simulator Screen Shot - iPod touch (7th generation) - 2024-02-26 at 01.17.49.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
