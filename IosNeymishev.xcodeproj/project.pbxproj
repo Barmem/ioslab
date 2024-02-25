@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C5AF6DCF2B8B7554001AED85 /* IosNeymishevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DCE2B8B7554001AED85 /* IosNeymishevApp.swift */; };
-		C5AF6DD12B8B7554001AED85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DD02B8B7554001AED85 /* ContentView.swift */; };
 		C5AF6DD32B8B7556001AED85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AF6DD22B8B7556001AED85 /* Assets.xcassets */; };
 		C5AF6DD62B8B7556001AED85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AF6DD52B8B7556001AED85 /* Preview Assets.xcassets */; };
 		C5AF6DE12B8B7AD3001AED85 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DE02B8B7AD3001AED85 /* MainScreen.swift */; };
@@ -17,12 +16,13 @@
 		C5AF6DEE2B8B8054001AED85 /* VisitCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DED2B8B8054001AED85 /* VisitCard.swift */; };
 		C5AF6DF02B8BA3E5001AED85 /*  SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DEF2B8BA3E5001AED85 /*  SearchBar.swift */; };
 		C5AF6DF22B8BA6A2001AED85 /* ServiceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DF12B8BA6A2001AED85 /* ServiceCard.swift */; };
+		C5AF6DF62B8BB5A6001AED85 /* DoctorLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DF52B8BB5A6001AED85 /* DoctorLocation.swift */; };
+		C5AF6DF82B8BB5D9001AED85 /* DoctorsLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AF6DF72B8BB5D9001AED85 /* DoctorsLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C5AF6DCB2B8B7554001AED85 /* IosNeymishev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosNeymishev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5AF6DCE2B8B7554001AED85 /* IosNeymishevApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosNeymishevApp.swift; sourceTree = "<group>"; };
-		C5AF6DD02B8B7554001AED85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5AF6DD22B8B7556001AED85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5AF6DD52B8B7556001AED85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5AF6DE02B8B7AD3001AED85 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
@@ -31,6 +31,8 @@
 		C5AF6DED2B8B8054001AED85 /* VisitCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitCard.swift; sourceTree = "<group>"; };
 		C5AF6DEF2B8BA3E5001AED85 /*  SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SearchBar.swift"; sourceTree = "<group>"; };
 		C5AF6DF12B8BA6A2001AED85 /* ServiceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCard.swift; sourceTree = "<group>"; };
+		C5AF6DF52B8BB5A6001AED85 /* DoctorLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorLocation.swift; sourceTree = "<group>"; };
+		C5AF6DF72B8BB5D9001AED85 /* DoctorsLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +71,8 @@
 				C5AF6DEF2B8BA3E5001AED85 /*  SearchBar.swift */,
 				C5AF6DE02B8B7AD3001AED85 /* MainScreen.swift */,
 				C5AF6DED2B8B8054001AED85 /* VisitCard.swift */,
+				C5AF6DF72B8BB5D9001AED85 /* DoctorsLocation.swift */,
 				C5AF6DF12B8BA6A2001AED85 /* ServiceCard.swift */,
-				C5AF6DD02B8B7554001AED85 /* ContentView.swift */,
 				C5AF6DD22B8B7556001AED85 /* Assets.xcassets */,
 				C5AF6DD42B8B7556001AED85 /* Preview Content */,
 			);
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				C5AF6DE92B8B7EA4001AED85 /* NextVisit.swift */,
+				C5AF6DF52B8BB5A6001AED85 /* DoctorLocation.swift */,
 			);
 			path = entities;
 			sourceTree = "<group>";
@@ -166,10 +169,11 @@
 				C5AF6DEC2B8B7F66001AED85 /* Header.swift in Sources */,
 				C5AF6DEE2B8B8054001AED85 /* VisitCard.swift in Sources */,
 				C5AF6DF02B8BA3E5001AED85 /*  SearchBar.swift in Sources */,
+				C5AF6DF82B8BB5D9001AED85 /* DoctorsLocation.swift in Sources */,
 				C5AF6DEA2B8B7EA4001AED85 /* NextVisit.swift in Sources */,
 				C5AF6DE12B8B7AD3001AED85 /* MainScreen.swift in Sources */,
-				C5AF6DD12B8B7554001AED85 /* ContentView.swift in Sources */,
 				C5AF6DCF2B8B7554001AED85 /* IosNeymishevApp.swift in Sources */,
+				C5AF6DF62B8BB5A6001AED85 /* DoctorLocation.swift in Sources */,
 				C5AF6DF22B8BA6A2001AED85 /* ServiceCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
